@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"location_calldata.sol": "Calldata"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"location_calldata.sol": {
+			"keccak256": "0x9e3f8dad9d2abe93c289e3c6336b6c843a3989360184e5c4d022b30e8212ac69",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e6722e619d7bacd49ce64a78653dd800ef28ee0f6b2ba32ee0157d454df2f10",
+				"dweb:/ipfs/QmU2c81PuMw3imE7bbSDGiMHzLa73SEkfimrMNnj6dcnNa"
+			]
+		}
+	},
+	"version": 1
+}
